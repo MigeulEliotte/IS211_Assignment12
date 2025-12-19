@@ -19,3 +19,4 @@ CREATE TABLE quiz_results (
     FOREIGN KEY (quiz_id) REFERENCES quizzes(id),
     PRIMARY KEY (student_id, quiz_id)
 );
+ 
